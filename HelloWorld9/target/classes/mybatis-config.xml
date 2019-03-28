@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases> <!-- 맵퍼에서 셀렉트의 resultType에 주소를 적지않아도 쓸 수 있게 만들어줌 ! -->
+		<package name="kr.co.domain"/>
+	</typeAliases>
+
+
+
+</configuration>
